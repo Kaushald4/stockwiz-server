@@ -30,7 +30,9 @@ SECRET_KEY = "django-insecure-8+-w%q@e68j4ioic)c_hb^@oqg0-rw9v^63-6b74vd!^lukbpr
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+     u'stockwiz-server.onrender.com'
+]
 AUTH_USER_MODEL = 'accounts.User'
 
 # Application definition
@@ -141,7 +143,7 @@ CORS_ORIGIN_WHITELIST = (
   u'http://127.0.0.1:8991', 
   u'http://localhost:8991',
   u'http://localhost:3000',
-  u'http://stockwiz-server.onrender.com'
+ 
 )
 
 # Internationalization
