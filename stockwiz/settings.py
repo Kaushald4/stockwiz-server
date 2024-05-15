@@ -138,8 +138,8 @@ CORS_ORIGIN_ALLOW_ALL = False
 CORS_ORIGIN_WHITELIST = (
   'http://localhost:3000',
   "https://stcokwiz-assignment.vercel.app",
-  '127.0.0.1', 
-  'localhost'
+  'http://127.0.0.1', 
+  'http://localhost'
 )
 
 # Internationalization
