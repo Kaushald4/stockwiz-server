@@ -135,14 +135,14 @@ SIMPLE_JWT = {
 
 CORS_ORIGIN_ALLOW_ALL = False
 
-CORS_ORIGIN_WHITELIST = [
+CORS_ORIGIN_WHITELIST = (
   u'https://stockwiz-server.onrender.com',
   u'https://stcokwiz-assignment.vercel.app',
   u'http://127.0.0.1:8991', 
   u'http://localhost:8991',
   u'http://localhost:3000',
   u'http://stockwiz-server.onrender.com'
-]
+)
 
 # Internationalization
 # https://docs.djangoproject.com/en/5.0/topics/i18n/
