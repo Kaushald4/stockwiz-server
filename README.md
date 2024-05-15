@@ -5,6 +5,7 @@
 -   Django
 -   Django RestFramework
 -   Jwt Authentication
+-   PostgresSQL (https://neon.tech/)
 
 ### The Project Containes Three Sub Module Apps
 
