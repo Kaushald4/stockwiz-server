@@ -139,7 +139,8 @@ CORS_ORIGIN_WHITELIST = (
   'http://localhost:3000',
   "https://stcokwiz-assignment.vercel.app",
   'http://127.0.0.1', 
-  'http://localhost'
+  'http://localhost',
+  "https://stockwiz-server.onrender.com"
 )
 
 # Internationalization
