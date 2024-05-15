@@ -141,6 +141,7 @@ CORS_ORIGIN_WHITELIST = [
   u'http://127.0.0.1:8991', 
   u'http://localhost:8991',
   u'http://localhost:3000',
+  u'stockwiz-server.onrender.com'
 ]
 
 # Internationalization
