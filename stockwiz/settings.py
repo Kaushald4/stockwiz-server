@@ -136,10 +136,10 @@ SIMPLE_JWT = {
 CORS_ORIGIN_ALLOW_ALL = False
 
 CORS_ORIGIN_WHITELIST = [
+  "https://stockwiz-server.onrender.com",
   "https://stcokwiz-assignment.vercel.app",
   'http://127.0.0.1:8991', 
   'http://localhost:8991',
-  "https://stockwiz-server.onrender.com",
 ]
 
 # Internationalization
